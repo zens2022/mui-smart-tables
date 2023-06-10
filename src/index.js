@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import { DemoPage } from './app/pages/DemoPage';
 
 const rootElement = document.getElementById('root');
 const reactRoot = ReactDOM.createRoot(rootElement);
 reactRoot.render(
   <React.StrictMode>
-    mui-smart-tables
+    <DemoPage />
   </React.StrictMode>
 );
 
